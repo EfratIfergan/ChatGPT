@@ -17,6 +17,6 @@ async function sentToChatGPT(message) {
 }
 
 (async ()=>{
-    await sentToChatGPT('מתי הוקמה מדינת ישראל?')
+    await sentToChatGPT('Can you tell me when the state of Israel was founded')
     console.log(response.data.choices[0])
 })()
